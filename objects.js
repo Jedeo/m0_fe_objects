@@ -48,7 +48,10 @@ console.log(Object.keys(foods));
 var emailIn_inbox = {
   sender: "jeck",
   subject: "check-in",
-  cc: "jacky"
+  cc: "jacky",
+  time_sent: "12pm",
+  date:"11/12/2022"
+
 }
 // Write code that logs your email object to the terminal.
 console.log(emailIn_inbox);
